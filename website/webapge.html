@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .header {
+            height: 50px;
+            background-color: rgb(230, 227, 227);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 15px 30px;
+            color: black;
+            text-transform: capitalize;
+        }
+
+        .logo {
+            padding: 7px 30px;
+        }
+
+        .navbar a:hover {
+            color: orange;
+            
+        }
+        #search{
+            border-radius: 30px;
+            height: 28px;
+            margin-top: 11px;}
+        
+.slider{
+
+    height: 400px;
+    background-color: antiquewhite;
+    animation: slide 10s ease infinite;
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed;   */
+    
+
+}
+@keyframes slide {
+    
+    0%{
+        background-image: url(../images/1.jpg);
+    }
+    50%{
+        background-image: url(../images/2.jpg);
+    }
+    100%{
+        background-image: url(../images/3.jpg);
+    }
+}
+.container{
+    margin-top: 40px;
+    height: auto;
+    /* background-color: beige; */
+    
+}
+#pro{
+    text-align: center;
+}
+.card{border: 1px solid black;
+width: 300px;}
+.row
+{
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: nowrap;
+}
+.banner{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(204, 202, 200);
+}
+.text{font-family: sans-serif;
+padding: 100px;}
+.banner-img img{
+    width: 500px;
+    height: 300px;
+}
+.footer{
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <span>
+                <h1>Closet.pk</h1>
+            </span>
+        </div>
+        <div class="navbar">
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">services</a>
+            <a href="">products</a>
+            <input type="text" name="" id="search" placeholder=" search here">
+            
+        </div>
+    </div>
+    <div class="slider">
+
+    </div>
+     
+    <div class="container">
+        <div class="row">
+            <h3 id="pro"> PRODUCT SECTION</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+<div class="card">
+    <div class="card-img">
+        <img src="../images/1.jpg" alt="" height="200px" width="300px">
+    </div>
+    <h2 id="head">PRODUCT 1</h2>
+    <p id="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+    <h3 id="card-price">RS5000</h3>
+    <button>order</button>
+
+
+</div>
+            </div>
+             <div class="col">
+<div class="card">
+    <div class="card-img">
+        <img src="../images/1.jpg" alt="" height="200px" width="300px">
+    </div>
+    <h2 id="head">PRODUCT 1</h2>
+    <p id="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+    <h3 id="card-price">RS5000</h3>
+    <button>order</button>
+
+
+</div>
+            </div>
+             <div class="col">
+<div class="card">
+    <div class="card-img">
+        <img src="../images/1.jpg" alt="" height="200px" width="300px">
+    </div>
+    <h2 id="head">PRODUCT 1</h2>
+    <p id="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+    <h3 id="card-price">RS5000</h3>
+    <button>order</button>
+
+
+</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+<div class="card">
+    <div class="card-img">
+        <img src="../images/1.jpg" alt="" height="200px" width="300px">
+    </div>
+    <h2 id="head">PRODUCT 1</h2>
+    <p id="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+    <h3 id="card-price">RS5000</h3>
+    <button>order</button>
+
+
+</div>
+            </div>
+             <div class="col">
+<div class="card">
+    <div class="card-img">
+        <img src="../images/1.jpg" alt="" height="200px" width="300px">
+    </div>
+    <h2 id="head">PRODUCT 1</h2>
+    <p id="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+    <h3 id="card-price">RS5000</h3>
+    <button>order</button>
+
+
+</div>
+            </div>
+             <div class="col">
+<div class="card">
+    <div class="card-img">
+        <img src="../images/1.jpg" alt="" height="200px" width="300px">
+    </div>
+    <h2 id="head">PRODUCT 1</h2>
+    <p id="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+    <h3 id="card-price">RS5000</h3>
+    <button>order</button>
+
+
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est atque autem odio quo asperiores earum nobis debitis dolores inventore culpa. Blanditiis vitae minus, sapiente minima, sint sequi nobis voluptates ipsam dolor aperiam doloremque impedit quis vel eveniet ut. Iusto, incidunt rerum recusandae dolorum ipsum culpa maxime doloremque impedit deleniti explicabo?</p>
+        </div>
+        <div class="banner-img">
+            <img src="../images/4.jpg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <p>copyrights 2025 | developed by anonymous </p>
+    </div>
+</body>
+
+</html>
