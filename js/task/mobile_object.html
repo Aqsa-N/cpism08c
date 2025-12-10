@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     var mobiles= [
+     {
+            brand:"oppo",
+        model:"a57",
+        price:2500,
+        specification:"dual camera"
+
+        },
+        {
+            brand:"iphone",
+        model:"12 pro max",
+        price:250000,
+        specification:"dual camera"
+
+        },
+        {
+            brand:"infinix",
+        model:"note 10",
+        price:50000,
+        specification:"dual camera"
+
+        }
+    ]
+    for (var a of mobiles ){
+        //document.write(a)
+        for(var b in a){
+            document.write(b+":"+a[b],"<br>")
+        }
+    }
+
+
+       
+    </script>
+</body>
+</html>
