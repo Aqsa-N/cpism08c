@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let num1= parseInt(prompt("enter 1st num"));
+    let num2= parseInt(prompt("enter 2nd num"));
+    let opr= prompt("choose any operator like +,-,*,/");
+    switch(opr){
+        case "+":
+            var result=num1+num2;
+            alert("addition is "+ result);
+            break;
+            case "-":
+            var result=num1-num2;
+            alert("difference is "+ result);
+            break;
+            case "*":
+            var result=num1*num2;
+            alert("product is "+ result);
+            break;
+            case "/":
+            var result=num1/num2;
+            alert("division is "+ result);
+            break;
+            default:
+                alert("invalid operator");
+
+    }
+   </script> 
+</body>
+</html>

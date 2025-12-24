@@ -1,0 +1,22 @@
+[{
+    "brand":"iphone",
+    "model":"12 pro max",
+    "description":["256gb,pacific blue,12mega pixels"],
+    "price":250000
+   
+},
+{
+    "brand":"iphone",
+    "model":"12 pro max",
+    "description":["256gb,pacific blue,12mega pixels"],
+    "price":250000,
+    "image":""
+   
+},
+{
+    "brand":"iphone",
+    "model":"12 pro max",
+    "description":["256gb,pacific blue,12mega pixels"],
+    "price":250000
+   
+}]
