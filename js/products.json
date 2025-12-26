@@ -30,5 +30,13 @@
     "price":250000
    ,
    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6754H2jSsjulBTpPe0svlnX_-80o-yHp1OQ&s"
+},
+{
+    "brand":"samsung",
+    "model":"note 10",
+    "description":["256gb,pacific blue,12mega pixels"],
+    "price":250000
+   ,
+   "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6754H2jSsjulBTpPe0svlnX_-80o-yHp1OQ&s"
 }
 ]
