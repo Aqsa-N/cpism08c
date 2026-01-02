@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <style>
+        #d{
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d"></div>
+    <script>
+ if(navigator.geolocation){
+   // alert("browsre supported");
+   navigator.geolocation.getCurrentPosition(showpostion)
+ }
+ function showpostion(pos){
+    var div=document.getElementById('d');
+    var lat=pos.coords.latitude;
+    var lon=pos.coords.longitude;
+    // alert ("latitude is"+lat+"longitude is"+lon);
+
+   var ltln= new google.maps.LatLng(lat,lon);
+  var mymap= new google.maps.Map(div,{
+    zoom:16,
+    center:ltln,
+    mapTypeId:"roadmap"
+
+   });
+  new google.maps.Marker({
+    position:ltln,
+    title:"my location",
+    map:mymap
+}); 
+
+ }
+    </script>
+</body>
+</html>
